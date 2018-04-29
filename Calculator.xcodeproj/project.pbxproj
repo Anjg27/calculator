@@ -12,6 +12,7 @@
 		ADE934BD2096479B00527CF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE934BB2096479B00527CF9 /* Main.storyboard */; };
 		ADE934BF2096479B00527CF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADE934BE2096479B00527CF9 /* Assets.xcassets */; };
 		ADE934C22096479B00527CF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE934C02096479B00527CF9 /* LaunchScreen.storyboard */; };
+		ADE934CA2096521400527CF9 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE934C92096521400527CF9 /* Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		ADE934BE2096479B00527CF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADE934C12096479B00527CF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADE934C32096479B00527CF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADE934C92096521400527CF9 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				ADE934B72096479B00527CF9 /* AppDelegate.swift */,
 				ADE934B92096479B00527CF9 /* ViewController.swift */,
 				ADE934BB2096479B00527CF9 /* Main.storyboard */,
+				ADE934C92096521400527CF9 /* Calculator.swift */,
 				ADE934BE2096479B00527CF9 /* Assets.xcassets */,
 				ADE934C02096479B00527CF9 /* LaunchScreen.storyboard */,
 				ADE934C32096479B00527CF9 /* Info.plist */,
@@ -138,6 +141,7 @@
 			files = (
 				ADE934BA2096479B00527CF9 /* ViewController.swift in Sources */,
 				ADE934B82096479B00527CF9 /* AppDelegate.swift in Sources */,
+				ADE934CA2096521400527CF9 /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
