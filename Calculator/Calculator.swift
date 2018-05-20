@@ -38,8 +38,23 @@ class Calculator {
     }
     
     func digitPressed(digit : Int) {
-       input *= 1
+       
+        if decimalPlace >= 0 {
+            input *= 10
+        }
         
+        input += Double(digit) * pow(10.0, Double(decimalPlace))
+        
+        if decimalPlace < 0 {
+            decimalPlace -= 1
+        }
+        
+    }
+    
+    func decimalpressed(digit: Int) {
+        if decimalPlace >= 0 {
+            decimalPlace = -1
+        }
         
     }
     
