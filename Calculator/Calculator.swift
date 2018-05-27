@@ -25,7 +25,7 @@ class Calculator {
     }
     
     func clearPressed(digit : Int) {
-        input = 0
+        input *= 0
         
     }
     func negativePressed(digit : Int) {

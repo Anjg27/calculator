@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+
     func showInput() {
         displayLabel.text = String(calculator.input)
     }
@@ -33,12 +33,36 @@ class ViewController: UIViewController {
     }
     
     @IBAction func digitPressed(_ sender: UIButton) {
-        
+        calculator.digitPressed(digit: sender.tag)
+        showInput()
     }
     
     @IBAction func decimalButtonPressed(_ sender: UIButton) {
+        calculator.decimalpressed(digit: sender.tag)
     }
     
-
+    @IBAction func clearPressed(_ sender:UIButton) {
+        calculator.clearPressed(digit: sender.tag)
+        showInput()
 }
+
+    
+    @IBAction func negativePressed(_ sender:UIButton) {
+        calculator.negativePressed(digit: sender.tag)
+        showInput()
+    }
+    
+     @IBAction func multiplication(_ sender:UIButton) {
+        calculator.multiplicationPressed(digit: sender.tag)
+    
+     }
+}
+
+
+
+
+
+
+
+
 
