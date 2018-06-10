@@ -38,7 +38,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func decimalButtonPressed(_ sender: UIButton) {
-        calculator.decimalpressed(digit: sender.tag)
+         calculator.decimalPressed(digit: sender.tag)
     }
     
     @IBAction func clearPressed(_ sender:UIButton) {
@@ -52,17 +52,25 @@ class ViewController: UIViewController {
         showInput()
     }
     
-     @IBAction func multiplication(_ sender:UIButton) {
-        calculator.multiplicationPressed(digit: sender.tag)
+    @IBAction func percentPressed(_ sender:UIButton) {
+        calculator.percentPressed(digit: sender.tag)
+        showInput()
+    }
     
-     }
+    
+    @IBAction func multiplication(_ sender:UIButton) {
+        calculator.multiplicationPressed(digit: sender.tag)
+        showInput()
+    
+    }
+
+
+
+
+
+
+
+
+
+
 }
-
-
-
-
-
-
-
-
-

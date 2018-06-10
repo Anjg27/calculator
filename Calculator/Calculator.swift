@@ -51,15 +51,104 @@ class Calculator {
         
     }
     
-    func decimalpressed(digit: Int) {
+    func decimalPressed(digit: Int) {
         if decimalPlace >= 0 {
             decimalPlace = -1
         }
         
-    }
-    
+        func equalPressed(digit: Int) {
+            
+        }
+        
+        func multiplicationPressed(digit: Int) {
+            
+       }
+
     
     
     
     
 }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
