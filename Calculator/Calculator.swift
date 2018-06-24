@@ -48,29 +48,34 @@ class Calculator {
         if decimalPlace < 0 {
             decimalPlace -= 1
         }
-        
     }
     
     func decimalPressed(digit: Int) {
         if decimalPlace >= 0 {
             decimalPlace = -1
         }
+    }
+    func equalPressed(digit: Int) {
         
-        func equalPressed(digit: Int) {
-            
-        }
-        
-        func multiplicationPressed(digit: Int) {
-            
-       }
-
-    
-    
-    
+    }
+    func multiplicationPressed(digit: Int) {
+        output *= input
+    }
+    func divisionPressed(digit:Int) {
+        output /= input
+    }
+    func additionPressed(digit: Int) {
+        output += input
+    }
+    func subtractionPressed(digit: Int) {
+        output -= input
+    }
     
 }
 
-}
+
+
+
 
 
 

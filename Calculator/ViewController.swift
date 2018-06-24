@@ -59,11 +59,21 @@ class ViewController: UIViewController {
     
     
     @IBAction func multiplication(_ sender:UIButton) {
-        calculator.multiplicationPressed(digit: sender.tag)
-        showInput()
+    
     
     }
 
+    @IBAction func division(_ sender:UIButton)  {
+        
+}
+
+    @IBAction func addition(_ sender:UIButton)  {
+        
+}
+
+    @IBAction func subtraction(_ sender:UIButton)  {
+        
+}
 
 
 
@@ -74,3 +84,4 @@ class ViewController: UIViewController {
 
 
 }
+
