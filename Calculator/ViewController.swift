@@ -54,13 +54,12 @@ class ViewController: UIViewController {
     
     @IBAction func percentPressed(_ sender:UIButton) {
         calculator.percentPressed(digit: sender.tag)
-        showInput()
     }
     
     
     @IBAction func multiplication(_ sender:UIButton) {
-    
-    
+          
+       
     }
 
     @IBAction func division(_ sender:UIButton)  {
@@ -68,7 +67,8 @@ class ViewController: UIViewController {
 }
 
     @IBAction func addition(_ sender:UIButton)  {
-        
+        calculator.additionPressed(digit: sender.tag)
+        showInput()
 }
 
     @IBAction func subtraction(_ sender:UIButton)  {

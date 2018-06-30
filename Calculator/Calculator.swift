@@ -55,9 +55,6 @@ class Calculator {
             decimalPlace = -1
         }
     }
-    func equalPressed(digit: Int) {
-        
-    }
     func multiplicationPressed(digit: Int) {
         output *= input
     }
@@ -65,95 +62,42 @@ class Calculator {
         output /= input
     }
     func additionPressed(digit: Int) {
-        output += input
+        if operation != .none {
+            equalPressed()
+        }
+        operation    = .addition
+        input        = 0
+        decimalPlace = 0
     }
     func subtractionPressed(digit: Int) {
         output -= input
     }
-    
+    func equalPressed() {
+        if operation == .addition {
+            output += input
+        }
+        else if operation == .subtraction {
+            output -= input
+        }
+        else if operation == .multiplication {
+            output *= input
+        }
+        else if operation == .division {
+            output /= input
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
